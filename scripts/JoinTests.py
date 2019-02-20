@@ -8,6 +8,7 @@ scriptPath = os.path.abspath(__file__)
 scriptDir = os.path.split(scriptPath)[0]
 scriptDir = scriptDir[:-8]
 
+
 class JoinTests(EnvironmentSetup):
 
     def test_WrongUsername(self):
